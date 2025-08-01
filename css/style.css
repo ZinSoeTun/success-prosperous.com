@@ -568,7 +568,7 @@ h6,
 /* Form card style */
 .form {
     width: 100%;
-     background-color: #0d3d70;
+    background-color: #0d3d70;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     z-index: 100;
@@ -644,3 +644,9 @@ h6,
         grid-template-columns: 1fr 1fr;  /* Side by side for reverse layout */
     }
 }
+
+  @media (min-width: 990px) {
+    .media-query {
+      margin-top: 120px;
+    }
+  }
